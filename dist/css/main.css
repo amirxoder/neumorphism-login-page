@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+:root {
+  --primary-color: #d65a31;
+  --secondary-color: #dbdada;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--secondary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.login-box {
+  width: 400px;
+  height: 600px;
+  background-color: var(--secondary-color);
+  -webkit-box-shadow: 7px 7px 10px white, -7px -7px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 7px 7px 10px white, -7px -7px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+}
+
+.login-box .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5rem;
+}
+
+.login-box .logo {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+
+.login-box .logo span {
+  font-weight: 400;
+}
+
+.login-box img {
+  width: 140px;
+}
+
+.login-box .login-forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 3rem;
+}
+
+.login-box .login-forms input {
+  width: 100%;
+  margin-bottom: .8rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  padding: 8px 18px;
+  text-align: center;
+  color: #393e46;
+  background-color: var(--secondary-color);
+  -webkit-box-shadow: 3px 3px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 5px white, -3px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-box .login-forms .btn {
+  font-weight: bold;
+  color: #393e46;
+  cursor: pointer;
+}
+
+.login-box .login-forms .btn:active {
+  -webkit-box-shadow: inset 3px 3px 5px white, inset -3px -3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 3px 3px 5px white, inset -3px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-box .login-forms p {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: 500;
+}
+/*# sourceMappingURL=main.css.map */

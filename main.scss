@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+:root {
+    --primary-color: #d65a31;
+    --secondary-color: #dbdada;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.login-box {
+    width: 400px;
+    height: 600px;
+    background-color: var(--secondary-color);
+    box-shadow: 7px 7px 10px rgba($color: #fff, $alpha: 1.0), -7px -7px 10px rgba($color: #000000, $alpha: .2);
+    border-radius: 2rem;
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .logo {
+        color: var(--primary-color);
+        letter-spacing: 2px;
+        span {
+            font-weight: 400;
+        }
+    }
+    img {
+        width: 140px;
+    }
+    .login-forms {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+        margin-top: 3rem;
+        input {
+            width: 100%;
+            margin-bottom: .8rem;
+            border-radius: 2rem;
+            outline: none;
+            border: none;
+            padding: 8px 18px;
+            text-align: center;
+            color: #393e46;
+            background-color: var(--secondary-color);
+            box-shadow: 3px 3px 5px rgba($color: #fff, $alpha: 1.0), -3px -3px 5px rgba($color: #000000, $alpha: .2);
+            ;
+        }
+        .btn {
+            font-weight: bold;
+            color: #393e46;
+            cursor: pointer;
+        }
+        .btn:active {
+            box-shadow: inset 3px 3px 5px rgba($color: #fff, $alpha: 1.0), inset -3px -3px 5px rgba($color: #000000, $alpha: .2);
+        }
+        p {
+            color: var(--primary-color);
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+}
